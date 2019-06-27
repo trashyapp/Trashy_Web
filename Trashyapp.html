@@ -17,7 +17,6 @@
             font-size: 8vh;
             letter-spacing: 1px;
             display: inline-block;
-            margin-top:-50px;
         }
 
 
@@ -25,7 +24,6 @@
             font-size: 1.7vw;
             list-style: none;
             display: inline-block;
-            margin-top:-10px;
         }
 
         ul li {
@@ -33,15 +31,15 @@
             width: 5.5vw;
             display: inline-block;
             position: relative;
-            padding: 1vw 1.5vw;
+            padding: 1vw 1.5vw 1vw 1vw;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.5s;
             border-radius: 5px;
             width: auto;
         }
 
         ul li:hover {
-            background: rgb(38, 162, 250);
+            background: #1292EE;
         }
 
         a {
@@ -55,7 +53,7 @@
         .satz {
             font-weight: 900;
             font-size: 3em;
-            margin: 3% 0 0 2.5%;
+            margin: 4% 0 0 2.5%;
             color: #2A3B47;
             font-family: 'Raleway', sans-serif;
         }
@@ -63,7 +61,7 @@
         .untersatz {
             color: #556575;
             margin: 2% 0 0 2.5%;
-            font-size: 2.3em;
+            font-size: 2em;
             letter-spacing: 0.5px;
         }
 
@@ -76,18 +74,36 @@
         .header {
             width: auto;
         }
+
+        button{
+            margin:2.5vw;
+            background-color: #1292EE;
+            border-radius: 7px;
+            padding:14px;
+            color:#f1f5fc;
+            font-size: 3.2vh;
+            border: solid 2px #1292EE;
+            transition:0.5s;
+            box-shadow: 0px 3px 12px #888888;
+        }
+
+        button:hover{
+            color:#1292EE;
+            background-color: #f1f5fc;
+        }
     </style>
 
 </head>
 
 <body>
     <div class="header">
+        <!--keine Ahnung wie ich dass alles auf eine Ebene kriegen soll :(  -->
         <img src="icon.png">
         <div class="caption">Trashy</div>
         <ul>
             <li> <a href=""> Apps </a> </li>
-            <li> <a href="">Text1</a> </li>
-            <li> <a href="">Text2 </a> </li>
+            <li> <a href="">Contact</a> </li>
+            <li> <a href="">About us </a> </li>
         </ul>
     </div>
 
@@ -96,6 +112,9 @@
         consetetur sadipscing elitr, <br>
         sed diam nonumy eirmod tempor<br>
         invidunt ut labore et dolore.</div>
+
+    <button type="button" style="margin-left:2.8vw;">IOS Download</button>
+    <button type="button">Android Download</button>
 
 
 </body>
