@@ -1,0 +1,114 @@
+body {
+    background-color: #f1f5fc;
+    font-family: 'Questrial', 'Helvetica Neue', sans-serif;
+    color: #2A3B47;
+    margin: -1vh 0 0 0;
+}
+
+.caption {
+    font-size: 7vh;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+ul {
+    font-size: 1.5vw;
+    list-style: none;
+    display: inline-block;
+}
+
+ul li {
+    font: 1.7vw;
+    width: 5.5vw;
+    display: inline-block;
+    position: relative;
+    padding: 1vw 1.5vw 1vw 1vw;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+    width: auto;
+}
+
+ul li:hover {
+    background: #1292EE;
+}
+
+a {
+    color: #556575;
+    text-decoration: none;
+    font: 1.4vw;
+    margin-left: 5px;
+    font-family: Quicksand;
+}
+
+.satz {
+    font-weight: 900;
+    font-size: 2.8em;
+    margin: 4% 0 0 2.5%;
+    color: #2A3B47;
+    font-family: 'Questrial', 'Helvetica Neue', sans-serif;
+}
+
+.untersatz {
+    color: #556575;
+    margin: 2% 0 0 2.5%;
+    font-size: 1.9em;
+    letter-spacing: 0.5px;
+}
+
+img {
+    width: 3em;
+    margin: 1%;
+    display: inline-block;
+}
+
+.header {
+    width: auto;
+}
+
+button {
+    margin: 2.5vw;
+    background-color: #1292EE;
+    border-radius: 7px;
+    padding: 14px;
+    color: #f1f5fc;
+    font-size: 3.2vh;
+    border: solid 2px #1292EE;
+    transition: 0.5s;
+    box-shadow: 0px 3px 10px #888888;
+}
+
+button:hover {
+    color: #1292EE;
+    background-color: #f1f5fc;
+}
+
+.firstpage {
+    height: auto;
+}
+
+.bgim-1 {
+    background-image: url("trash1.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.featurescap {
+    color: #f1f5fc;
+    margin: 5%;
+    font-weight: 900;
+    font-size: 2.8em;
+    letter-spacing: 0.5px;
+    font-family: 'Questrial', 'Helvetica Neue', sans-serif;
+}
+
+ol {
+    color: #f1f5fc;
+    font-size: 4vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
