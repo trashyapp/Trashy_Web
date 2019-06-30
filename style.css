@@ -33,7 +33,7 @@ ul li {
 
 .untersatz {
     color: #556575;
-    margin: 2% 0 0 2.5%;
+    margin: 1% 2.5%;
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 1.75;
@@ -46,7 +46,7 @@ ul li {
 }
 
 .header {
-    width: auto;
+    width: max-content;
 }
 
 button {
@@ -74,6 +74,11 @@ button {
     -o-border-radius: 5px;
     -webkit-user-select: none;
     font-family: 'Questrial', 'Helvetica Neue', sans-serif;
+}
+
+button.portion {
+    margin: 24px;
+    padding: 0px 14px !important;
 }
 
 button:hover {
@@ -125,4 +130,13 @@ ol {
 
 .headeritem:hover>a {
     color: #253642;
+}
+
+.portion {
+    white-space: nowrap;
+    line-height: 42px;
+}
+
+.row>.headeritem:nth-child(2) {
+    padding: 24px 24px 24px 0px !important;
 }

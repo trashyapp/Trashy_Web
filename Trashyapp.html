@@ -6,21 +6,18 @@
     <title>Trashyapp</title>
     <link href="https://fonts.googleapis.com/css?family=Questrial|Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="fictoan.css" type="text/css">
 </head>
 
 <body>
     <div class="firstpage">
-        <div class="header">
-            <!--keine Ahnung wie ich dass alles auf eine Ebene kriegen soll :(  -->
-            <ul>
-                <img src="logo.svg" alt="Logo" id="logo">
-                <li class="headeritem"><a href="">Apps</a></li>
-                <li class="headeritem"><a href="">Features</a></li>
-                <li class="headeritem"><a href="">About us</a></li>
-                <button type="button">Contact us</button>
-                <!-- TODO Move to right-->
-            </ul>
+        <div class="header row">
+            <img class="portion" src="logo.svg" alt="Logo" id="logo">
+            <div class="portion headeritem"><a href="">Apps</a></div>
+            <div class="portion headeritem"><a href="">Features</a></div>
+            <div class="portion headeritem"><a href="">About us</a></div>
+            <button class="portion" type="button">Contact us</button>
         </div>
         <!-- TODO Remove Inline Css -->
         <img src="screen.png" style="float:right; width:30vw;margin-right:10vw;">
@@ -45,7 +42,6 @@
 
         </ol>
     </div>
-
 </body>
 
 </html>
