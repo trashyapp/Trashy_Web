@@ -59,7 +59,6 @@ button {
     color: #fff;
     font-size: 2.5vh;
     text-decoration: none;
-    user-select: none;
     text-align: center;
     vertical-align: middle;
     box-shadow: 0 2px 20px -1px rgba(20, 45, 100, .25);
@@ -139,4 +138,31 @@ ol {
 
 .row>.headeritem:nth-child(2) {
     padding: 24px 24px 24px 0px !important;
+}
+
+.feature {
+    width: 100%;
+}
+
+.screenshot {
+    width: 30%;
+    margin: 0 35%;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.highlight:hover {
+    width: 36%;
+    margin: 0 32%;
+}
+
+.highlight:hover~.screenshot:nth-of-type(3) {
+    margin: 0 35%;
+}
+
+.screenshot:nth-of-type(3) {
+    margin: 0 35% 31px 35%;
 }
