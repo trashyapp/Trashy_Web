@@ -2705,7 +2705,7 @@ hr.secondary {
   background-color: #14ffff; }
 
 .bg-white {
-  background-color: white; }
+  background-color: #f1f5fc; }
 
 .bg-black {
   background-color: black; }
@@ -3269,7 +3269,7 @@ hr.secondary {
   color: #14ffff; }
 
 .text-white {
-  color: white; }
+  color: #f1f5fc; }
 
 .text-black {
   color: black; }
@@ -3833,7 +3833,7 @@ hr.secondary {
   border: 2px solid #14ffff; }
 
 .border-white {
-  border: 2px solid white; }
+  border: 2px solid #f1f5fc; }
 
 .border-black {
   border: 2px solid black; }
@@ -5522,11 +5522,11 @@ hr.secondary {
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 1em;
-  line-height: 1.6;
-  color: #002147;
+  color: #556575;
   word-wrap: normal;
   text-rendering: optimizeLegibility;
-  background-color: white; }
+  background-color: #f1f5fc; 
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;

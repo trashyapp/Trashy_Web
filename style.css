@@ -27,20 +27,19 @@ ul li {
     font-weight: 900;
     font-size: 46px;
     margin: 4% 0 0 2.5%;
-    color: #071e57;
-    font-family: 'Questrial', 'Helvetica Neue', sans-serif;
+    color: #2A3B47;
+    font-family: Montserrat;
 }
 
 .untersatz {
     color: #556575;
     margin: 1% 2.5%;
     font-size: 20px;
-    letter-spacing: 0.5px;
     line-height: 1.75;
 }
 
 #logo {
-    width: 200px;
+    width: 40vw;
     height: auto;
     display: inline-block;
 }
@@ -50,7 +49,7 @@ ul li {
 }
 
 button {
-    margin: 2vw;
+    margin: 4vw;
     background-color: #1292EE;
     border-radius: 5px;
     border-color: #0e7bc9;
@@ -59,7 +58,6 @@ button {
     color: #f1f5fc;
     font-size: 2.5vh;
     text-decoration: none;
-    user-select: none;
     text-align: center;
     vertical-align: middle;
     box-shadow: 0 2px 20px -1px rgba(20, 45, 100, .25);
@@ -124,19 +122,44 @@ ol {
     -o-transition: all .15s ease-in-out;
     color: #556573;
     text-decoration: none;
-    font: 1.4vw;
+    font-size: 3vh;
     margin-left: 5px;
 }
 
 .headeritem:hover>a {
     color: #253642;
+    background-color:#1292EE;
 }
 
 .portion {
     white-space: nowrap;
-    line-height: 42px;
+    line-height: 8vh;
+    text-align:center;
 }
 
-.row>.headeritem:nth-child(2) {
-    padding: 24px 24px 24px 0px !important;
+.feature {
+    width: 100%;
+}
+
+.screenshot {
+    width: 30%;
+    margin: 0 35%;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.highlight:hover {
+    width: 36%;
+    margin: 0 32%;
+}
+
+.highlight:hover~.screenshot:nth-of-type(3) {
+    margin: 0 35%;
+}
+
+.screenshot:nth-of-type(3) {
+    margin: 0 35% 31px 35%;
 }
